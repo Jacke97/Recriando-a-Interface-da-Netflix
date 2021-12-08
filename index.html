@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+    <link rel="manifest" href="img/site.webmanifest" />
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="header Logo">
+            <img src="./img/logo_netflix.png"  width="130" height="65" alt="Logo Netflix">
+            </h1>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="series.html">Séries</a>
+                <a href="filmes.html">Filmes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">LA CASA DE PAPEL</h3>
+                <p class="descricao"> Um homem misterioso que atende pelo nome de El Profesor, está planejando o maior assalto do século. A fim de realizar o ambicioso plano ele recruta uma gangue de oito pessoas com certas habilidades que não tem nada a perder. O objetivo é infiltrar na Casa da Moeda, de modo que eles possam imprimir 2,4 bilhões de euros.</p>
+                <div class="botoes">
+                    <a href="https://www.youtube.com/watch?v=iS5xXr-GOnM" target="_blank">
+                      <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                      </button>
+                    </a>
+                    <a href="javascript: abrir();">
+                      <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                      </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup">
+            <img class="gif" src="img/giphy.gif" alt="">
+            <a href="https://youtu.be/a3T7gcWnb5M" target="_blank" class="play-button">
+                <button role="button">
+                    <i class="fas fa-play"></i>
+                       Assistir
+                </button>
+            </a>
+            <a href="javascript: fechar();">
+                <i class="far fa-times-circle"></i>
+            </a>            
+            <div class="details-popup">
+                <p>2017 <span class="classificacao">16</span> 1h 10min</p>
+                <a href="https://youtu.be/a3T7gcWnb5M" target="_blank" class="info-plus"><i class="fas.fa-info-circle"></i></a>
+            </div>
+            <div class="elements-popup">
+                <p class="sinopse-popup">
+                    Um homem misterioso que atende pelo nome de El Profesor, está planejando o maior assalto do século. A fim de realizar o ambicioso plano ele recruta uma gangue de oito pessoas com certas habilidades que não tem nada a perder. O objetivo é infiltrar na Casa da Moeda, de modo que eles possam imprimir 2,4 bilhões de euros.
+                </p>
+                <div class="info-popup">
+                    <p>
+                        Elenco: Álvaro Morte, Úrsula Corberó, Itziar Ituño, Pedro Alonso, Jaime Lorente, Miguel Herrán, Esther Acebo, Darko Peric  <a class="info-mais" href="https://www.imdb.com/title/tt0327597/" target="_blank">mais</a>
+                    </p>
+                    <p>
+                        Diretor: Aléx Pina.
+                    </p>
+                
+                    <p>
+                        Gênero: Crime, Drama.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <br class="conteudos">
+    <section id="carrosel-series">
+        <h2 class="series">Séries</h2></section>
+        <div>
+    
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/supernatural.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/the walking dead.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/prison break.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/ponto cego.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/vis a vis.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/my name.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/round6.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/diários de um vampiro.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/alice in bordeland.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/lucifer.jpg" alt="" srcset="">
+                </div>
+                <div class="item"><img class="box-filme" src="img/bridgerton.jpg" alt=""></div>
+                <div class="item"><img class="box-filme" src="img/stranger things.jpg" alt=""></div>
+                <div class="item"><img class="box-filme" src="img/elite.jpg" alt=""></div>
+                <div class="item"><img class="box-filme" src="img/anne com um e.jpg" alt=""></div>
+                <div class="item"><img class="box-filme" src="img/riverdale.jpg" alt=""></div>
+                <div class="item"><img class="box-filme" src="img/você.jpg" alt=""></div>
+                <div class="item"><img class="box-filme" src="img/lacasa.jpg" alt=""></div>
+           </div>
+        </div>
+    </section>
+    
+    <section id="carrosel-filmes">
+        <h2 class="filme">Filmes</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="img/filme1.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme2.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme3.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme4.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme5.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme6.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme7.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme8.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme9.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filmes10.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filmes11.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filmes12.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme 13.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme14.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme15.jpg" alt=""></div>
+            <div class="item"><img class="box-filme" src="img/filme16.jpg" alt=""></div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <h2 class="create">Desenvolvido por Jaqueline Silva</h2>
+        <a href="https://www.instagram.com/jacke_ferreira9/">
+            <img class="redes" src="img/instagram.png" alt="Instagram" width="25">
+        </a>
+        <a href="https://www.linkedin.com/in/jaqueline-ferreira-9683b0173/">
+            <img class="redes" src="img/linkedin.png" alt="Linkedin" width="25">
+        </a>
+        <a href="https://github.com/Jacke97">
+            <img class="redes" src="img/github.png" alt="GitHub" width="25">
+        </a>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/popup.js"></script>
+ 
+
+ 
+</body>
+</html>

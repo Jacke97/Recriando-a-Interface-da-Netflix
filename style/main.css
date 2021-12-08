@@ -1,0 +1,261 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url(lacasadepapel.jpg);
+
+    height:400px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+#carrosel-series .series{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 26px;
+    margin-top: -2px;
+    margin-left: 15px;
+    margin-bottom: 9px;
+}
+
+#carrosel-filmes .filme{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 26px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    margin-top: -2px;
+}
+
+.conteudos{
+    margin-top: -2%;
+}
+
+/*pop-up*/
+
+.popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 65%;
+    height: 90%;
+    background: rgb(46, 46, 46);
+    border-radius: 8px;
+    z-index: 999999;
+    display: none;
+}
+
+.far.fa-times-circle {
+    color: whitet;
+    font-size: 2.5em;
+    position: absolute;
+    right: .25em;
+    top: .20em;
+}
+
+.gif {
+    width: 100%;
+    height: 50%;
+    border-radius: 8px 8px 0 0;
+}
+
+.play-button {
+    position: absolute;
+    top: 14.5em;
+    left: 1.2em;
+}
+
+.play-button button {
+    padding: 12px 30px;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.play-button button i {
+    margin-right: 10px;
+}
+
+.details-popup {
+    padding: .5em 0 0 2em;
+    font-size: 18px;
+}
+
+.info-plus {
+    display: none;
+}
+
+.classificacao {
+    background-color: #E50914;
+    font-weight: bolder;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 5px 8px;
+    border-radius: 3px;
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
+.elements-popup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sinopse-popup {
+    width: 60%;
+    text-align: justify;
+    padding: 1em 0 0 2em;
+    font-size: 18px;
+}
+
+.info-popup {
+    width: 38%;
+    float: right;
+    padding-left:3em;
+}
+
+.info-popup p {
+    margin-bottom: .5em;
+    font-size: 16px;
+}
+
+.info-mais {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.title-popup {
+    font-size: 1.25em;
+    margin: 1em 2em;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    margin-top: 1%;
+    background-color: #140e0e00;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .create {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+footer a {
+    margin-right: 15px;
+}
+
+footer a img:hover {
+    transition: 0.3s ease all;
+    width: 30px;
+}
+
